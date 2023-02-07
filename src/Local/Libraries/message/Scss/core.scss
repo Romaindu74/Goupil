@@ -1,0 +1,204 @@
+.msg {
+    display: flex;
+    margin: 5%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 5px rgb(64 60 67 / 16%);
+}
+
+.friends {
+    width: 25%;
+}
+
+.messages {
+    width: 75%;
+}
+
+.icon-friend {
+    width: 37px;
+    height: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9999px;
+    margin: 0% 2%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.new-conversation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin: 1% 0%;
+    border-radius: 8px;
+}
+
+.new-conversation:hover {
+    background-color: #8e8e8e;;
+}
+
+.friend-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+
+.friend-select>p {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 1%;
+}
+
+.friend-select>p:hover {
+    background-color: #8e8e8e8e;
+}
+
+.notif {
+    background-color: #cd1478;
+    border-radius: 8px;
+    color: white;
+}
+
+.dialog {
+    width: 75%;
+}
+
+#dialog {
+    overflow: auto;
+    height: 500px;
+}
+
+.me {
+    padding: 3px;
+    text-align: right;
+    margin: 3px 1%;
+    margin-left: 50%;
+    border-radius: 8px;
+    max-width: 50%;
+}
+
+.me:hover{
+    background-color: #8e8e8e;
+}
+.you:hover{
+    background-color: #8e8e8e;
+}
+
+.you {
+    padding: 3px;
+    text-align: left;
+    margin: 3px 1%;
+    border-radius: 8px;
+    max-width: 50%;
+}
+
+.content {
+    margin: 0% 2%;
+    word-wrap: break-word
+}
+
+.conversation {
+    text-align: center;
+}
+
+.selected {
+    background-color: #8e8e8e;
+}
+
+.dialog > div > textarea {
+    width: 100%;
+    overflow: auto;
+    height: 245px;
+    resize: none;
+    padding: 0px;
+    display: block;
+    border: 0px;
+    background-color: #8E8E8E5a;
+    border-radius: 8px;
+}
+
+#editbox {
+    position: absolute;
+    background-color: rgb(219, 214, 214);
+    border-radius: 8px;
+    width: 200px;
+}
+
+#editbox > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#editbox > div > a {
+    text-align: left;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#editbox > div > a:hover {
+    background-color: aliceblue;
+}
+
+#editmessage {
+    position: absolute;
+    background-color: rgb(219, 214, 214);
+    border-radius: 8px;
+    width: 200px;
+}
+
+#editmessage > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#editmessage > div > a {
+    text-align: left;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#editmessage > div > a:hover {
+    background-color: aliceblue;
+}
+
+
+.msg-icon {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 9999px;
+
+}
+
+.msg-head {
+    display: flex;
+    align-items: center;
+}
+
+.actif {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+}
+
+.back-textarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-textarea > p {
+    color: red;
+}
+#friends {
+    overflow: auto;
+    height: 759px;
+}

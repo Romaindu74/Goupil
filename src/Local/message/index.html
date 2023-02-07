@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Goupil | Message</title>
+        <script type="text/javascript">
+            class Elements { constructor(type, who, head = {}, body = '', options = {}) { var el = document.createElement(type); if (!options.insertbefore) { who.appendChild(el); } else { who.insertBefore(el, who.firstChild); } for (var key in head) { el[key] = head[key]; } el.innerHTML = body; return el; } }
+        </script>
+    </head>
+    <body style="margin: 0%;">
+        <div id="loading"></div>
+        <script type="text/javascript">
+            var l = document.getElementById('loading'); if (l) { l.style = `background:url("${location.origin}/Libraries/Main/Images/page-loading.gif");position: absolute;width: 100%;height: 100%;background-position: center;background-size: cover;`; }; new Elements('script', document.head, { type: "text/javascript", src: `${location.origin}/Libraries/index.min.js` });
+        </script>
+    </body>
+</html>
