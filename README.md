@@ -1,6 +1,6 @@
 # Projet Goupil
 
-![Goupil Logo]([lien_vers_votre_logo.png](https://goupil.hopto.org/Libraries/Index/php/file?Name=F7XsvuiK5a8I8OWODkO0A2qVa))
+![Goupil Logo]([https://goupil.hopto.org/Libraries/Index/php/file?Name=F7XsvuiK5a8I8OWODkO0A2qVa])
 
 ## Description
 
