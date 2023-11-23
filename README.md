@@ -43,7 +43,8 @@ Log.debug("Hello World !");
 Log.info("Hello World !");
 Log.warning("Hello World !");
 Log.error("Hello World !");
-Log.critical("Hello World !");```
+Log.critical("Hello World !");
+```
 
 ### Module de Base de Données
 Le module de base de données n'est malheuresement pas prêt.
