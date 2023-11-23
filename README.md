@@ -1,6 +1,6 @@
 # Projet Goupil
 
-![Goupil Logo](https://goupil.hopto.org/Libraries/Index/php/file?Name=ihwxXdzSv3OX1GZS3uTtgh2Fz) [Goupil](https://goupil.hopto.org)
+[Goupil](https://goupil.hopto.org)
 
 ## Description
 
