@@ -1,6 +1,6 @@
 # Projet Goupil
 
-![Goupil Logo](lien_vers_votre_logo.png)
+![Goupil Logo]([lien_vers_votre_logo.png](https://goupil.hopto.org/Libraries/Index/php/file?Name=F7XsvuiK5a8I8OWODkO0A2qVa))
 
 ## Description
 
@@ -21,4 +21,4 @@ Goupil est un projet regroupant plusieurs petits modules conçus pour faciliter 
 Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 
 ```bash
-git clone https://github.com/votre_nom_utilisateur/goupil.git
+git clone https://github.com/Romaindu74/goupil.git
