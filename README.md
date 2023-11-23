@@ -24,8 +24,9 @@ Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 git clone https://github.com/Romaindu74/goupil.git
 ```
 
-# Modules :
-## Module de Journalisation
+## Modules
+
+### Module de Journalisation
 Le module de journalisation fournit un système simple pour enregistrer des messages dans vos applications. Pour l'utiliser, importez le module dans votre code et appelez la fonction de journalisation appropriée.
 
 Exemple :
