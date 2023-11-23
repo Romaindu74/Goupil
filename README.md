@@ -22,3 +22,26 @@ Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 
 ```bash
 git clone https://github.com/Romaindu74/goupil.git
+```
+
+## Modules
+Module de Journalisation
+Le module de journalisation fournit un système simple pour enregistrer des messages dans vos applications. Pour l'utiliser, importez le module dans votre code et appelez la fonction de journalisation appropriée.
+
+Exemple :
+```js
+const { Logs } = require("goupil-logs");
+
+globalThis.Log = new Logs();
+
+Log.setup({
+    pathfile: 'Logs',
+    formatfilename: 'Log %j-%M-%a.log',
+    prefixlog: '[%h:%m %j/%M/%a][%type] '
+});
+
+Log.debug("Hello World !");
+Log.info("Hello World !");
+Log.warning("Hello World !");
+Log.error("Hello World !");
+Log.critical("Hello World !");```
