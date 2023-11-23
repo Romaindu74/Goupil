@@ -12,8 +12,6 @@ Goupil est un projet regroupant plusieurs petits modules conçus pour faciliter 
 - [Modules](#modules)
   - [Module de Journalisation](#module-de-journalisation)
   - [Module de Base de Données](#module-de-base-de-données)
-- [Utilisation](#utilisation)
-- [Contribuer](#contribuer)
 - [Licence](#licence)
 
 ## Installation
@@ -46,3 +44,10 @@ Log.info("Hello World !");
 Log.warning("Hello World !");
 Log.error("Hello World !");
 Log.critical("Hello World !");```
+
+### Module de Base de Données
+Le module de base de données n'est malheuresement pas prêt.
+
+
+## Licence
+Ce projet est sous licence GNU General Public License v3.0 - voir le fichier LICENSE pour plus de détails.
