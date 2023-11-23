@@ -1,0 +1,20 @@
+{
+  "name": "rpa-logs",
+  "version": "1.0.3",
+  "description": "The npm module \"slazhe-logs\" provides an incredibly simple-to-use logging system. With minimal configuration, slazhe-logs allows you to track log messages in your application in a lightweight and efficient manner. Ideal for small projects where simplicity is key.",
+  "main": "index.min.js",
+  "scripts": {
+    "test": "./Test/Exemple.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Romaindu74/Logs.git"
+  },
+  "keywords": [],
+  "author": "Romaindu74",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romaindu74/Logs/issues"
+  },
+  "homepage": "https://github.com/Romaindu74/Logs#readme"
+}
