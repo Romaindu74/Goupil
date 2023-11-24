@@ -27,7 +27,12 @@ git clone https://github.com/Romaindu74/goupil.git
 ### Module de Journalisation
 Le module de journalisation fournit un système simple pour enregistrer des messages dans vos applications. Pour l'utiliser, importez le module dans votre code et appelez la fonction de journalisation appropriée.
 
-Exemple :
+#### Instalation: 
+```bash
+npm install goupil-logs
+```
+
+#### Exemple :
 ```js
 const { Logs } = require("goupil-logs");
 
