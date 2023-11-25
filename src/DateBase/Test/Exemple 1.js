@@ -17,8 +17,8 @@ if (fs.existsSync(http_crt_file)) {
 var http = new DataBase.http(
     options_http,
     (req, res) => {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        res.end('<a href="https://github.com/Romaindu74/Goupil"><h1>Simple DataBase</h1></a><br><h2>Hello World !</h2>');
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+        res.end('<style>*{font-family: system-ui;}html{background-color:#343541;}a{text-decoration:none;color:white;}h1{text-align:center;}</style><a href="https://github.com/Romaindu74/Goupil"><h1>Simple DataBase</h1></a><br><h2>Hello World !</h2>');
     }
 )
 
