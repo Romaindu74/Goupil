@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "goupil-logs": "^1.0.5",
+    "ws": "^8.14.2"
+  },
+  "name": "goupil-database",
+  "version": "1.1.5",
+  "description": "Simple DataBase.",
+  "main": "index.min.js",
+  "scripts": {
+    "test-1": "./Test/Exemple 1.js",
+    "test-2": "./Test/Exemple 2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Romaindu74/Goupil.git"
+  },
+  "keywords": [],
+  "author": "Romaindu74",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romaindu74/Goupil/issues"
+  },
+  "homepage": "https://github.com/Romaindu74/Goupil#readme"
+}
