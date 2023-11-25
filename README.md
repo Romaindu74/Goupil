@@ -75,7 +75,7 @@ Web:
 ```js
 Goupil.start(['Votre url']);
 
-Goupil.connect(['Votre nom d'utilisateur par defaut "root"'], ['Votre mot de passe par defaut "root"']);
+Goupil.connect(['Votre nom d\'utilisateur par defaut "root"'], ['Votre mot de passe par defaut "root"']);
 
 Goupil.open(['Path du fichier']);
 Goupil.save(['Path du fichier']);
