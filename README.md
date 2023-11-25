@@ -73,6 +73,8 @@ Serveur.Start();
 
 Web:
 ```js
+let Goupil = (function(){o={},(p={}).sh=((a=function(){this.t=2500}).prot..... ("Fichier Web.min.js");
+
 Goupil.start(["Votre url"]);
 
 Goupil.connect(["Votre nom d'utilisateur par defaut 'root'"], ["Votre mot de passe par defaut 'root'"]);
