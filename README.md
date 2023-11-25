@@ -73,12 +73,12 @@ Serveur.Start();
 
 Web:
 ```js
-Goupil.start([Votre url]);
+Goupil.start(['Votre url']);
 
-Goupil.connect([Votre nom d'utilisateur par defaut "root"], [Votre mot de passe par defaut "root"]);
+Goupil.connect(['Votre nom d'utilisateur par defaut "root"'], ['Votre mot de passe par defaut "root"']);
 
-Goupil.open([Path du fichier]);
-Goupil.save([Path du fichier]);
+Goupil.open(['Path du fichier']);
+Goupil.save(['Path du fichier']);
 ```
 ## Licence
 Ce projet est sous licence GNU General Public License v3.0 - voir le fichier LICENSE pour plus de détails.
