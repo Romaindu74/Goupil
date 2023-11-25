@@ -52,7 +52,33 @@ Log.critical("Hello World !");
 ```
 
 ### Module de Base de Données
-Le module de base de données n'est malheuresement pas prêt.
+Le module de base de données fournit un système simple pour enregistrer du contenu. Pour l'utiliser, importez le module sur votre ordinateur et lancez un exemple. Pour accéder à cette base de données, il n'y a pour le moment qu'une seule façon, c'est en passant par la console d'un navigateur avec le fichier Web.min.js qui se trouve dans le dossier Client.
 
+#### Instalation: 
+```bash
+npm install goupil-database
+```
+
+#### Exemple :
+Serveur (Fichier "Exemple 2.js"):
+```js
+const { SimpleDataBase } = require("goupil-database");
+
+var port  = 8080;
+
+var Serveur = new SimpleDataBase(port);
+
+Serveur.Start();
+```
+
+Web:
+```js
+Goupil.start([Votre url]);
+
+Goupil.connect([Votre nom d'utilisateur par defaut "root"], [Votre mot de passe par defaut "root"]);
+
+Goupil.open([Path du fichier]);
+Goupil.save([Path du fichier]);
+```
 ## Licence
 Ce projet est sous licence GNU General Public License v3.0 - voir le fichier LICENSE pour plus de détails.
