@@ -82,5 +82,21 @@ Goupil.connect(["Votre nom d'utilisateur par defaut 'root'"], ["Votre mot de pas
 Goupil.open(["Path du fichier"]);
 Goupil.save(["Path du fichier"], ["Vos Data"]);
 ```
+
+NodeJs (Fichier "Client Exemple.js"):
+```js
+let { Client } = require("goupil-database");
+
+Client.start("localhost:8080");
+
+Client.connect("root", "root");
+
+Client.newdb("Data/Test");
+
+Client.save("Data/Test", "Hello World !");
+
+Client.open("Data/Test").then(_ => {
+    console.log(_);
+});```
 ## Licence
 Ce projet est sous licence GNU General Public License v3.0 - voir le fichier LICENSE pour plus de détails.
