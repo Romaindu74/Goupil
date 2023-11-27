@@ -1,13 +1,17 @@
 let { Client } = require("goupil-database");
 
-Client.start("localhost:8080");
+async function Start() {
+    await Client.start("ws://localhost:8080");
+    
+    await Client.connect("root", "root");
+    
+    await Client.newdb("Data/Test");
+    
+    await Client.save("Data/Test", "Hello World !");
+    
+    Client.open("Data/Test").then(_ => {
+        console.log(_);
+    });
+}
 
-Client.connect("root", "root");
-
-Client.newdb("Data/Test");
-
-Client.save("Data/Test", "Hello World !");
-
-Client.open("Data/Test").then(_ => {
-    console.log(_);
-});
+Start();
