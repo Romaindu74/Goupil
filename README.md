@@ -97,6 +97,7 @@ Client.save("Data/Test", "Hello World !");
 
 Client.open("Data/Test").then(_ => {
     console.log(_);
-});```
+});
+```
 ## Licence
 Ce projet est sous licence GNU General Public License v3.0 - voir le fichier LICENSE pour plus de détails.
