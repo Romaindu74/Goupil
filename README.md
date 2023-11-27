@@ -11,6 +11,7 @@ Goupil est un projet regroupant plusieurs petits modules conçus pour faciliter 
 - [Installation](#installation)
 - [Modules](#modules)
   - [Module de Journalisation](#module-de-journalisation)
+      - [Instalation](#Instalation)
   - [Module de Base de Données](#module-de-base-de-données)
 - [Licence](#licence)
 
